@@ -21,6 +21,6 @@ export const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig)
   ],
   declarations: [ AppComponent ],
-  Bootstrap: [ AppComponent ]
+  bootstrap: [ AppComponent ]
 })
 export class MyAppModule {}
